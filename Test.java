@@ -25,7 +25,6 @@ public static void main(String[] args)
 		int minuten = ((n/60)%(n/(365*24*60*60)));
 		int sekunden = (n%(n/(365*24*60*60)));
 		System.out.println(n+" Sec= "+jahre+"jahre "+tage+"tage "+stunden+"stunden "+minuten+"minuten "+sekunden+"sekunden ");
-		System.out.println("noch eine ausgabe :-)");
 	}
 	public static void main(String[] args){
 	Test einTest = new Test();
